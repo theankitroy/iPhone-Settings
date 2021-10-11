@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+}
+body,html{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    background-color: red;
+    height: 100%;
+    width: 100%;
+}
+.settings{
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 320px;
+    height: 600px;
+    padding: 20px 20px;
+    transform: translate(-50%,-50%);
+    color: white;
+    border-radius: 30px;
+    
+}
+.search{
+    width: 100%;
+    border-radius: 5px;
+    background-color:white;
+    border: none;
+    padding: 3px 12px;
+    opacity: 0.29;
+    color:black;
+}
+.searchIcon{
+    position: absolute;
+    opacity: 0.3;
+    padding: 3px;
+    width: 50%;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(41, 40, 40);
+    padding: 13px 10px;
+    margin: 10px 0px;
+    border-radius: 10px;
+}
+.details p{
+    font-size: 10px;
+    letter-spacing: 1px;
+    padding: 0px;
+    margin: 0px;
+    
+}
+.details h3{
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+.fa-user{
+    /* float: left; */
+    align-self:center;
+    
+}
+.fa-chevron-right{
+    align-self: center;
+}
+.network{
+    background-color:rgb(41, 40, 40) ;
+    padding: 8px 10px;
+    margin: 10px 0px;
+    border-radius: 10px;
+}
+.network table{
+    width: 100%;
+}
+.plane{
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    /* padding: 5px; */
+    text-align: center;
+    align-self: center;
+    border-radius: 5px;
+}
+.plane i{
+    margin-top: 3.5px;
+}
+.network .plane1{
+    background-color: rgb(243, 161, 54);
+}
+.network .plane2{
+    background-color: rgba(50, 50, 243, 0.87);
+}
+.network .plane3{
+    background-color: rgb(46, 46, 243);
+}
+.network .plane4{
+    background-color: rgba(65, 252, 112, 0.87);
+}
+.network .plane5{
+    background-color: rgba(14, 247, 72, 0.993);
+    opacity: 0.5;
+    
+}
+.hotspot{
+    opacity: 0.5;
+}
+.fa-link{
+    opacity: 0.5;
+}
+.network .plane6{
+    background-color: rgb(46, 46, 243);
+}
+.network .plane7{
+    background-color:orange
+}
+.network .plane8{
+    background-color: red;
+}
+.network .plane9{
+    background-color: rgb(139, 12, 243);
+}
+.plane6 p{
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    align-self: center;
+}
+.nc{
+    align-self: center;
+}
+.right{
+    float: right;
+}
+td{
+    margin-bottom: 15px;
+}
+.border-bottom{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+    /* text-align:center; */
+    padding-left: 1px;
+}
+.visible{
+    visibility: hidden;
+}
+.dp{
+    height: 38px;
+}
+
+
+
